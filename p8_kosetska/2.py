@@ -7,7 +7,7 @@ except IndexError:
     print('a не може дорівнювати 0')
 except IndexError:
     print('b не може дорівнювати 0!')
-if(D < 0): raise Exception("discriminant is less than 0, there are no roots")
+if(D < 0): raise Exception("Дискримінант менший за 0, коренів немає")
 x1=(-b+D)/(2*a)
 x2=(-b-D)/(2*a)
 print("x1 =",x1,'x2 =',x2)
